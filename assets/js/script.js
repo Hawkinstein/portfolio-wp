@@ -373,6 +373,10 @@ jQuery(document).ready(function($){
     $(".gallery-continer li a").attr('rel', 'gallery').fancybox();
     /*Magazine Gallery*/
 
+    /*Chris add for pdf fancybox trial*/
+    $(".pdf a").attr('rel', 'gallery').fancybox({'type':'iframe','width':'80%','height':'90%'});
+    /*Chris add for pdf fancybox trial*/
+
     /*Twitter Widget*/
     var tweets = "";
 
